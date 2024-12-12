@@ -9,17 +9,16 @@ This documentation provides an overview of how to document your Supabase Postgre
 - Triggers
 - Storage buckets
 
-The data will be output in JSON format, allowing for easy interpretation of the different types of database components.
+**Note**: This script does **not** retrieve any data from the tables; it only collects metadata about the database schema and structure. The output will be in JSON format, allowing for easy interpretation of the different types of database components.
 
 ## Using the Script
 1. **Log in to Supabase**: Access your Supabase project dashboard.
 2. **Open the SQL Editor**: Navigate to the SQL editor in your Supabase project.
-3. **Copy and Paste the SQL Script**: Look at `document-everything.sql` in this repository.
+3. **Copy and Paste the SQL Script**: Copy the SQL at `document-everything.sql` in this repository.
 4. **Execute the Query**: Click the "Run" button to execute the query. The results will appear in the output panel.
 
 ## Downloading the Results as CSV
 ![image](https://github.com/user-attachments/assets/1ddcaba1-b55b-4001-bb1a-af53bb2c1392)
-
 
 1. **Exporting the Results**:
    - After running the SQL query, you should see the output in JSON format in the output pane in rows.
